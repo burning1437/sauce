@@ -1,0 +1,184 @@
+
+
+.potaena {
+
+background-color:black;
+width: 60px;
+height: 30px;
+border: 5px;
+position: relative;
+left: 30px;
+text-align: center;
+color: white;
+
+}
+
+.potaena::before {
+	content:"T";
+	text-align: center;
+}
+
+
+
+
+.lebron {
+
+background-color: black;
+width: 20px;
+border: 5px;
+height: 100px;
+position: relative;
+left: 88px;
+color:white;
+text-align: center;
+}
+
+.lebron::before {
+	content:"V";
+}
+
+.kobe {
+
+	background-color: black;
+	width: 20px;
+	border: 5px;
+	height: 100px;
+	position: relative;
+	top: -130px;
+	left: 12px;
+	text-align:center;
+	color: white;
+	
+	}
+
+
+	.kobe::before {
+		content:"U";
+	}
+
+.curry {
+
+		background-color: black;
+		width: 60px;
+		border: 5px;
+		height: 30px;
+		position: relative;
+		top: -3px;
+		left: 30px;
+		color: white;
+		text-align: center;
+
+
+		
+		}
+		.curry::before {
+			content:"W";
+		}
+
+
+
+
+.ginto {
+
+			background-color: red;
+			width: 60px;
+			border: 5px;
+			height: 30px;
+			position: relative;
+			top: -3px;
+			left: 30px;
+			color: white;
+			text-align: center;
+	
+			
+	}
+
+	.ginto::before {
+		content:"Z";
+	}
+
+.pacquiao {
+
+		background-color: black;
+		width: 20px;
+		border: 5px;
+		height: 105px;
+		position: relative;
+		left: 88px;
+		top: -135px;
+		text-align: center;
+		color: white;
+		}
+
+		.pacquiao::before {
+			content:"Y";
+		}
+
+.asero {
+
+			background-color: black;
+			width: 20px;
+			border: 5px;
+			height: 105px;
+			position: relative;
+			left: 10px;
+			top: -239px;
+			color: white;
+			text-align: center;
+			}
+
+			.asero::before {
+				content:"X";
+			}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* { 
+	margin: 0; 
+	padding: 0;
+}
+body { 
+	font: 20px/1.4 Georgia, Serif; 
+}
+#page-wrap {
+	margin: 300px;
+}
+p {
+	margin: 20px 0; 
+}
+
+
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 15px; 
+		border: 1px solid #ccc; 
+		text-align: center; 
+	}
